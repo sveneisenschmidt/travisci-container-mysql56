@@ -1,13 +1,9 @@
 sudo: false
-language: php
-php:
-    - 7
-
+language: python
 addons:
     apt:
         sources:
             - debian-sid
         packages:
             - mysql-server-5.6
-
 script: echo "OK"
