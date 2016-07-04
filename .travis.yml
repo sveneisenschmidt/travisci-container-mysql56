@@ -2,8 +2,6 @@ sudo: false
 language: python
 addons:
     apt:
-        sources:
-            - debian-sid
         packages:
             - mysql-server-5.6
 script: echo "OK"
